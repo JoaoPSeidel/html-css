@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&family=Teko&display=swap');
+
+body{
+    background-color: #efefef;
+}
+
+.logo{
+    margin-top: 30px;
+    margin-bottom: -5px;
+    margin-left: 1.5em;
+}
+
+.box{
+    text-align: center;
+    background-color: #033F63;
+    font-family: "rubik wet paint";
+    font-size: 55px;
+    font-weight: 100;
+    color: white;
+    margin-top: 0px;
+    border-radius: 1em;
+}
+
+h2{    
+    text-align: center;
+    font-family: "teko" ;
+}
+
+p{
+
+    color: white;
+    font-family: 'Teko';
+}
+
+a{  
+    margin-bottom: -5px;
+    text-decoration: none;
+}
+
+a:visited{
+    color: white;
+}
+
+.image-container {
+    margin-left: 15%;
+    margin-right: 15%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.image-container img {
+    flex: 0 0 25%;
+    margin: 0px; 
+    border: 0px;
+}
